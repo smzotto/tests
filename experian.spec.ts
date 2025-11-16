@@ -7,7 +7,7 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Experian/);
 });
 
-test('get started link', async ({ page }) => {
+test('sign in link', async ({ page }) => {
   await page.goto('https://www.experian.com/');
 
   // Click the sign in link.
